@@ -1,0 +1,48 @@
+.header {
+    background: url('https://mass-images.pro/files/preview/3/16/6caa6d5f8475576c65021ca889c5791f.jpg?1694016871807') center center/cover no-repeat;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.search_block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .search_block {
+        gap: 10px;
+    }
+
+    .filters {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 424px) {
+    .title {
+        font-size: 30px;
+    }
+}

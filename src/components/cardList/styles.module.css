@@ -1,0 +1,14 @@
+.card_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-auto-rows: 400px;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.total {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
