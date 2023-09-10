@@ -1,5 +1,5 @@
 .header {
-    background: url('https://mass-images.pro/files/preview/3/16/6caa6d5f8475576c65021ca889c5791f.jpg?1694016871807') center center/cover no-repeat;
+    background: url('../../images/header-bg.jpg') center center/cover no-repeat;
     height: 30vh;
     display: flex;
     align-items: center;
